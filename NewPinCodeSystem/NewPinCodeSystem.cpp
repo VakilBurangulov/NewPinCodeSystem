@@ -9,14 +9,12 @@ int main()
 
     int sum = 0;
     {
-        int count = 1;
-        int num;
-
-        while (count < 5) {
-            std::cout << "Введите " << count << "ое число: ";
-            std::cin >> num;
-            sum += num;
-            count++;
+        int number;
+        std::cout << "Введите число: ";
+        std::cin >> number;
+        while (number != 0) {
+            sum += number % 10;
+            number /= 10;
         }
     }
 
