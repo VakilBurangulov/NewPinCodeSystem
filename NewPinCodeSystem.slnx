@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="NewPinCodeSystem/NewPinCodeSystem.vcxproj" Id="dc68b1a9-c9ad-4d08-a5d5-ed81544329f4" />
+</Solution>
